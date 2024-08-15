@@ -1,19 +1,5 @@
-/* Example for local font */
-@font-face {
-   font-family: 'Lato';
-   src: url('../fonts/Lato.woff2') format('woff2');
-   font-weight: normal;
-   font-style: normal;
-}
-@font-face {
-   font-family: 'Lato-Bold';
-   src: url('../fonts/latobold.woff2') format('woff2');
-   font-weight: bold;
-   font-style: normal;
-}
-
 body {
-   font-family: Lato, sans-serif; /* Lato should now be available */
+   font-family: 'Lato', sans-serif; /* Lato should now be available */
    margin: 0;
    padding: 0;
    box-sizing: border-box;
